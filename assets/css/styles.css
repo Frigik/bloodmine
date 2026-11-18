@@ -127,14 +127,12 @@ h2 {
     font-weight: 900;
 }
 
-.hero h1,
-.hero h2 {
+.hero h1 {
     font-size: 40px;
     letter-spacing: -.8px;
 }
 
-.hero h1 span,
-.hero h2 span {
+.hero h1 span {
     color: #fff7e8;
 }
 
@@ -254,14 +252,12 @@ h2 {
     overflow: hidden;
 }
 
-h3,
-h4 {
+h3 {
     margin: 16px 0;
     font-size: 17px;
 }
 
-.store-preview h3,
-.store-preview h4 {
+.store-preview h3 {
     font-size: 15px;
 }
 
@@ -326,8 +322,7 @@ h4 {
     border-radius: 10px;
 }
 
-.description-column h3,
-.description-column h4 {
+.description-column h3 {
     margin: 25px 20px 12px;
     font-size: 17px;
 }
@@ -414,8 +409,7 @@ h4 {
     padding: 20px;
 }
 
-.news-copy h3,
-.news-copy h4 {
+.news-copy h3 {
     font-size: 18px;
 }
 
@@ -589,8 +583,7 @@ h4 {
     margin: auto;
 }
 
-.reward-card h3,
-.reward-card h4 {
+.reward-card h3 {
     margin: 3px 0 10px;
 }
 
@@ -652,8 +645,7 @@ h4 {
     font-size: 11px;
 }
 
-.guide-step h3,
-.guide-step h4 {
+.guide-step h3 {
     margin: 10px 0;
 }
 
@@ -733,8 +725,7 @@ h4 {
     margin: 0 0 35px;
 }
 
-.article-page h1,
-.article-page h2 {
+.article-page h1 {
     font-size: 38px;
     margin: 20px 0;
 }
@@ -760,8 +751,7 @@ h4 {
     color: #b99d85;
 }
 
-.article-body h3,
-.article-body h4 {
+.article-body h3 {
     color: #fff1df;
     font-size: 22px;
     margin-top: 32px;
@@ -910,8 +900,7 @@ h4 {
         max-width: 100%;
     }
 
-    .hero h1,
-    .hero h2 {
+    .hero h1 {
         font-size: 32px;
     }
 
@@ -1006,8 +995,7 @@ h4 {
         padding: 20px 0;
     }
 
-    .article-page h1,
-    .article-page h2 {
+    .article-page h1 {
         font-size: 30px;
     }
 
@@ -1022,8 +1010,7 @@ h4 {
 }
 
 @media (max-width: 480px) {
-    .hero h1,
-    .hero h2 {
+    .hero h1 {
         font-size: 28px;
     }
 
