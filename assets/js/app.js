@@ -1,6 +1,7 @@
 var selectedCategory = 'ranks';
 var selectedIndex = 1;
 var selectedTerm = 'На месяц';
+var termMultiplier = { 'На месяц': 1, 'Навсегда': 3 };
 var lastFocused = null;
 var products = {
   ranks: [
@@ -47,7 +48,10 @@ function updatePrice() {
   var button = document.getElementById('choose-product');
   if (!button) return;
   var product = products[selectedCategory][selectedIndex];
-  button.textContent = 'Выбрать за ' + product.price + ' ₽';
+  var total = product.price * termMultiplier[selectedTerm];
+  button.textContent = selectedTerm === 'Навсегда'
+    ? 'Выбрать за ' + total + ' ₽ навсегда'
+    : 'Выбрать за ' + total + ' ₽';
 }
 
 function setCategory(category) {
