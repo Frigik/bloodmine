@@ -1014,6 +1014,16 @@ h3 {
         font-size: 28px;
     }
 
+    .hero-back {
+        height: auto;
+        max-width: 56%;
+    }
+
+    .hero-front {
+        height: auto;
+        max-width: 40%;
+    }
+
     .section-title h2 {
         font-size: 24px;
     }
